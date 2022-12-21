@@ -1,0 +1,47 @@
+body {
+    background: #d7f7fb;
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+div#info {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(0,0,0,0.36)
+}
+
+
+section#card {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    height: 230px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 3px 3px 10px rgb(0,0,0,0.36)
+}
+
+input, select, option {
+    border: 1.5px solid rgb(101, 101, 101);
+    border-radius: 8px;
+}
+
+
+section div#espaco_imagem {
+    width: 150px;
+    position: relative;
+}
+
+#espaco_nome, #espaco_idade, #espaco_altura, #espaco_peso, #espaco_imc, #espaco_gasto {
+    position: relative;
+    padding-left: 180px;
+    top: -160px;
+}

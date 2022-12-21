@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil atleta</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/5.4.3/Rx.js"></script>
+</head>
+<body>
+    <header>
+    <h1>perfil atleta</h1>
+    </header>
+
+    <div id="info">
+            <p>sexo: 
+                <input type="radio" name="sexo" value="mas" checked>
+                <label for="mas">masculino</label>
+                <input type="radio" name="sexo" value="fem">
+                <label for="fem">feminino</label>
+            </p>
+            <p>nome: <input type="text" name="nome" id="nome"></p>
+            <p>idade: <input type="number" name="idade" id="idade" min="1"></p>
+            <p>altura: <input type="number" name="altura" id="altura" min="1"></p>
+            <p>peso: <input type="number" name="peso" id="peso" min="1"></p>
+            <label for="atividade" id="atividade">atividade física:</label>
+            <select name="nivel" id="nivel">
+                <option value="seden">sedentário</option>
+                <option value="levea">levemente ativo</option>
+                <option value="modea">moderadamente ativo</option>
+                <option value="altaa">altamente ativo</option>
+                <option value="extra">extremamente ativo</option>
+            </select>
+        </div>
+
+    <section id="card">
+        <div id="espaco_imagem"></div>
+        <div id="espaco_nome"></div>
+        <div id="espaco_idade"></div>
+        <div id="espaco_altura"></div>
+        <div id="espaco_peso"></div>
+        <div id="espaco_atividade"></div>
+        <div id="espaco_imc"></div>
+        <div id="espaco_gasto"></div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
